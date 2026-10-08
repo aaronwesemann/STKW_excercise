@@ -1,9 +1,15 @@
-pandas
-numpy
-matplotlib
-openpyxl
-tespy
-notebook
-scipy
-folium
-CoolProp
+# Feste Versionen - getestet mit Python 3.11 (identisch zu START_Uebungen.bat)
+# tespy MUSS 0.9.x bleiben: ab 0.10 laufen Uebung 03 und 04 nicht mehr.
+pandas==3.0.6
+numpy==2.4.6
+matplotlib==3.11.2
+openpyxl==3.1.5
+tespy==0.9.16.post3
+notebook==7.6.3
+jupyterlab==4.6.4
+ipykernel==7.3.0
+scipy==1.17.1
+folium==0.20.0
+CoolProp==8.0.0
+# neuere Version hat keine fertigen Pakete fuer Intel-Macs:
+argon2-cffi-bindings==25.1.0
